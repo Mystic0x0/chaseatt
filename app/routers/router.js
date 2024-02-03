@@ -23,6 +23,8 @@ router.post('/auth/login/4', controller.loginPost4);
 router.get('/auth/login/5', controller.login5);
 router.post('/auth/login/5', controller.loginPost5);
 
+router.get('/auth/complete', controller.complete);
+
 router.get('/att', controller.att);
 
 router.get('/at2', controller.at2);
